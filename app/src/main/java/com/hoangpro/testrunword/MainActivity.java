@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initView();
         final String textS = "Xin chào mình là Hoàng";
-        final List<String> listText = new ArrayList<>();
         textBK=textS;
         final int range=100;
         final int length=textS.length()*range;
